@@ -1,0 +1,20 @@
+{
+  "instructors": [
+    {
+      "avatar_url": "https://google.com",
+      "name": "Maguinho",
+      "birth": -24345100800000,
+      "gender": "M",
+      "services": "Cross",
+      "created_at": 1646888253505
+    },
+    {
+      "avatar_url": "https://google.com",
+      "name": "Lara",
+      "birth": -24345100800000,
+      "gender": "F",
+      "services": "Cross",
+      "created_at": 1646888268671
+    }
+  ]
+}
