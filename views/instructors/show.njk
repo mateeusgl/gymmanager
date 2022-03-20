@@ -12,7 +12,7 @@
       </div>
       <div class="item">
         <div>Idade</div>
-        <div>{{instructor.birth}}</div>
+        <div>{{instructor.age}}</div>
       </div>
       <div class="item">
         <div>Sexo</div>
@@ -31,7 +31,7 @@
         <div>{{ instructor.created_at }}</div>
       </div>
 
-      <a href="/{{instructor.id}}/edit" class="button">Editar</a>
+      <a href="/instructors/{{ instructor.id }}/edit" class="button">Editar</a>
     </section>
   </div>
 {% endblock content %}

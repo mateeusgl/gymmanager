@@ -15,7 +15,6 @@ routes.get("/instructors/create", (req, res) => {
 });
 
 routes.get("/instructors/:id", instructors.show);
-
 routes.get("/instructors/:id/edit", instructors.edit);
 
 routes.get("/members", (req, res) => {
@@ -23,5 +22,7 @@ routes.get("/members", (req, res) => {
 });
 
 routes.post("/instructors", instructors.post);
+routes.put("/instructors", instructors.put);
+routes.delete("/instructors", instructors.delete);
 
 module.exports = routes;

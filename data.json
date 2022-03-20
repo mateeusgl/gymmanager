@@ -1,21 +1,12 @@
 {
   "instructors": [
     {
-      "avatar_url": "https://google.com",
-      "name": "Maguinho",
-      "birth": -24345100800000,
-      "gender": "M",
-      "services": "Cross",
-      "created_at": 1646888253505
-    },
-    {
-      "avatar_url": "https://google.com",
-      "name": "Matheus",
+      "avatar_url": "http://google.com",
+      "name": "Queridaa2",
       "birth": -23890291200000,
       "gender": "M",
-      "services": "Cross",
-      "created_at": 1647745775574,
-      "id": 2
+      "services": "Muscle",
+      "created_at": 1646888253505
     },
     3,
     "Matheus",
@@ -38,40 +29,13 @@
     "Cross",
     1647746914411,
     {
-      "id": 23,
-      "avatar_url": "http://google.com",
-      "name": "Querida",
-      "birth": -23890291200000,
-      "gender": "M",
-      "services": "Muscle",
-      "created_at": 1647747095940
-    },
-    {
-      "id": 24,
-      "avatar_url": "http://google.com",
-      "name": "Google",
-      "birth": -23890291200000,
-      "gender": "M",
-      "services": "GYM",
-      "created_at": 1647747194604
-    },
-    {
-      "id": 25,
+      "id": 22,
       "avatar_url": "http://google.com",
       "name": "Matheus",
-      "birth": -23890291200000,
-      "gender": "M",
-      "services": "Muscle, GYM, Cross",
-      "created_at": 1647747248054
-    },
-    {
-      "id": 26,
-      "avatar_url": "http://google.com",
-      "name": "Joana",
       "birth": 900460800000,
-      "gender": "F",
-      "services": "Muscle, GYM",
-      "created_at": 1647752647992
+      "gender": "M",
+      "services": "Mulher, Mucle, GYM, Cross",
+      "created_at": 1647764750392
     }
   ]
 }
