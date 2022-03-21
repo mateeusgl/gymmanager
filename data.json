@@ -1,41 +1,22 @@
 {
   "instructors": [
     {
-      "avatar_url": "http://google.com",
-      "name": "Queridaa2",
-      "birth": -23890291200000,
-      "gender": "M",
-      "services": "Muscle",
-      "created_at": 1646888253505
+      "id": 1,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2254731?v=4",
+      "name": "Querida",
+      "birth": 912988800000,
+      "gender": "F",
+      "services": "Cross, Muscle",
+      "created_at": 1647891868899
     },
-    3,
-    "Matheus",
-    -23890291200000,
-    "M",
-    "https://google.com",
-    1647746562232,
-    9,
-    "https://google.com",
-    "Sara",
-    -23890291200000,
-    "M",
-    "GYM",
-    1647746714468,
-    16,
-    "http://google.com",
-    "Matheus",
-    -23890291200000,
-    "M",
-    "Cross",
-    1647746914411,
     {
-      "id": 22,
-      "avatar_url": "http://google.com",
+      "id": 2,
+      "avatar_url": "https://avatars.githubusercontent.com/u/99461822?v=4",
       "name": "Matheus",
-      "birth": 900460800000,
+      "birth": 912988800000,
       "gender": "M",
-      "services": "Mulher, Mucle, GYM, Cross",
-      "created_at": 1647764750392
+      "services": "Cross, Muscle",
+      "created_at": 1647891884836
     }
   ]
 }
