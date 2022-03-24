@@ -98,5 +98,40 @@ module.exports= {
       if(err) throw `Database Error! ${err}`
       callback(results.rows)
     })
+  },
+  paginate(params){ // Creating idea of pagination, for not stay big more
+    const { filter, limit, offSet, callback } = params
+
+    let query = '',
+      filterQuery = '',
+      totalQuery = `(
+        SELECT count(*) FROM members
+      ) AS total`
+
+    if(filter){
+      filterQuery = `
+        WHERE members.name ILIKE '%${filter}%'
+        OR members.email ILIKE '%${filter}%'
+      `
+
+      totalQuery = `(
+        SELECT COUNT(*) FROM members
+        ${filterQuery}
+      ) AS total`
+    }
+
+     query = `
+      SELECT members.*, ${totalQuery}
+      FROM members
+      ${filterQuery}
+      LIMIT $1 OFFSET $2
+    `
+
+    db.query(query, [limit, offSet], (err, results)=>{
+      if(err) throw `Database Error! ${err}`
+
+      callback(results.rows)
+    })
+
   }
 }
